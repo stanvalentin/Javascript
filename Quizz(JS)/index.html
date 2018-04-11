@@ -1,0 +1,70 @@
+<html>
+
+<head> 
+	<title> Quizz </title>
+
+	<link rel="stylesheet" href="style.css">
+	<script src="javascript.js"> </script>
+<head>
+
+<body >
+<div id="animate_left" style="height: 0px;"> 
+	<img src="giphy.gif" id="left" style="display: none; height: 0px; margin: auto;">
+</div>
+<div id="animate_right" style="height: 0px;"> 
+	<img src="corect.gif" id="right" style="display: none; height: 0px; margin: auto;">
+</div>
+
+	<div class="grid">
+	
+		<div id="quiz">
+				
+				<h1 id="ki" > QUIZ </h1>
+		</div>
+		
+			
+			<hr style="margin-bottom: 20px;">
+			
+			<div id="lives" style="width: 150px;"> 
+			<p id="life_text">YOUR LIFE</p>
+				<div id="lives1" style="width: 150px;"> 
+				
+				</div>
+				
+			</div>
+			
+			
+			
+			<p id="score" style="float: right;"> </p>
+			
+			<br>
+			<br>
+			<hr>
+			
+			<p id="question">  </p>
+			
+			<div class="buttons" style="display: none; opacity: 0;">
+			
+				<button id="btn0" class="option" onclick = "take_value(this.innerHTML)"><span id="choice0"> answer </span></button>
+				<button id="btn1" class="option" onclick = "take_value(this.innerHTML)"><span id="choice1"> answer </span></button>
+				<button id="btn2" class="option" onclick = "take_value(this.innerHTML)"><span id="choice2"> answer </span></button>
+				<button id="btn3" class="option" onclick = "take_value(this.innerHTML)"><span id="choice3"> answer </span></button>
+				
+			</div>
+			<div id="answer">  </div>
+			
+			<button id="new_question" onclick="st_res()" >START</button>
+			
+		</div>
+	
+	 <audio id="fail" src="sound/fail_wav.ogg"  ></audio>
+	 <audio id="success" src="sound/success_wav.ogg" ></audio>
+	 <audio id="game_over" src="sound/game_over.ogg" ></audio>
+
+</body>
+
+
+
+
+
+</html>

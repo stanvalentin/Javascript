@@ -1,0 +1,199 @@
+body {
+	
+	background-color : #eeeeee;
+	height:100%;
+
+}
+
+
+.grid {
+	
+	border: 2px solid black;
+	width: 810px;
+    margin: auto;
+    height: 500px;
+	border-radius: 25px;
+	border-color: #3371d6;
+	background-color: lemonchiffon;
+	position: relative;
+}
+
+
+
+#animate_right {
+	
+	float: right;
+	top: 10px;
+/* border-radius: 1px solid;  */
+    border-radius: 25px;
+    width: 350px;
+	background-color: #42b3f4;
+}
+
+
+#animate_left {
+	
+	float: left;
+	top: 10px;
+	/* border-radius: 1px solid;  */
+    border-radius: 25px;
+    width: 350px;
+	background-color: #42b3f4;
+	
+	
+}
+
+
+#quiz {
+	
+	text-align: center;
+    border: 1px solid;
+    border-radius: 50px;
+    width: 377px;
+    margin: auto;
+	margin-top: 8px;
+	background-color: #c4ff4d;
+}
+
+#bottom {
+	width: 377px;
+	margin: auto;
+	border: 1px solid;
+}
+
+.buttons {
+	text-align: center;
+	margin: auto;
+	
+}
+
+.option {
+	
+	border-radius: 50px;
+	text-align: center;
+	height: 80px;
+	margin: auto;
+	margin-top: 8px;
+	background-color: #c4ff4d;
+	width: 270px;
+    font-size: 23;
+	float: left;
+	outline: 0;
+	position: absolute;
+
+	
+}
+
+#question  {
+	
+	text-align: center;
+    font-size: 28px;
+    font-family: cursive;
+}
+
+#score {
+	font-family: fantasy;
+    font-size: 20px;
+	margin: auto;
+}
+
+#answer {
+	
+	width: 200px;
+	margin: auto;
+	height: 80px;
+	border-radius: 50px;
+	font-size:  20px;
+	font-family: cursive;
+	text-shadow: 2 3;
+	outline: 0;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 80px;
+	
+}
+
+#lives {
+	
+	
+    height: 26px;
+    float: left;
+	margin-left: 3px;
+    border-radius: 50px;
+    background-color: red;
+    opacity: 1;
+	z-index: -1;
+	
+}
+
+#lives1 {
+	
+	border: 1px solid;
+    height: 25px;
+    float: left;
+    border-radius: 50px;
+    background-color: chartreuse;
+    opacity: 1;
+	
+	position: absolute;
+	
+	
+}
+
+#life_text {
+	z-index: 3;
+	position: absolute;
+    margin: auto;
+    left: 25;
+    margin-top: 2;
+    font-family: cursive;
+	font-weight: bolder;
+}
+
+
+button#new_question {
+	
+	text-align: center;
+    margin-top: 180;
+    font-size: 25px;
+    border-radius: 50px;
+    box-shadow: 1px 1px;
+    background-color: #0e63ed;
+    font-family: sans-serif;
+	left: 47%;
+	
+	outline: 0;
+	position: absolute;
+}
+#btn0 {
+	left: 100px;
+}
+
+#btn1 {
+	right: 100px;
+}
+
+#btn2 {
+	left: 100px;
+	bottom: 60px;
+	
+}
+
+#btn3 {
+	right: 100px;
+	bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
